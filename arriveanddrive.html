@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benik Kart - arrive and drive</title>
+    <link rel="stylesheet" href="./styles/landingpages.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar__main">
+      <h5><a href="/" class="navbar__main--logo">BENIK</a></h5>
+      <ul>
+        <li class="navbar__main--item">
+          <a href="/arriveanddrive.html">Arrive and Drive</a>
+        </li>
+        <li class="navbar__main--item">
+          <a href="/simulator.html">Simulator</a>
+        </li>
+        <li class="navbar__main--item">
+          <a href="#">Shop</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="flex__main--container-bg-arrive"></div>
+      <div class="flex__main--container">
+        <div class="flex__main--item">
+          <h1 data-aos="fade-up">Arrive and Drive</h1>
+          <h4 data-aos="fade-up" data-aos-duration="500">
+            Ready to take a test drive in one of the best racing sims available
+            in the industry? Our sims will surely leave you wanting for more as
+            you experience what its like to race at the apex. Schedule a test
+            drive with us or just stop by for an adrenaline-filled day.
+          </h4>
+          <div
+            class="flex__main--button"
+            data-aos="fade-up"
+            data-aos-duration="800"
+          >
+            <a data-scroll href="#booking">Get Started Now</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div class="section__item">
+        <h2 id="booking">Our Current Availability</h2>
+        <p>calender / services would go here.</p>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="./scripts/snippets.js" />
+  </body>
+</html>
